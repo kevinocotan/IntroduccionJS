@@ -23,8 +23,21 @@ const producto = {
 // console.log(precio)
 // console.log(disponible)
 
-const {nombre, precio, disponible} = producto
+// const {nombre, precio, disponible} = producto
 
-console.log(nombre)
-console.log(precio)
-console.log(disponible) // Lo mismo pero resumido
+// console.log(nombre)
+// console.log(precio)
+// console.log(disponible) // Lo mismo pero resumido
+
+
+/* Object Literal Enhacement */
+
+const autenticado = true
+const usuario = "Juan"
+
+const nuevoObjeto = {
+    autenticado,
+    usuario
+}
+
+console.log(nuevoObjeto)
