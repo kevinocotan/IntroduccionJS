@@ -1,12 +1,14 @@
 // Tipos de Dato
 
-// Undefined
+
+/* Undefined */
 
 // let cliente;
 // console.log(cliente);
 // console.log(typeof cliente);
 
-// Strings o Cadenas de Texto
+
+/* Strings o Cadenas de Texto */
 
 // let alumno = "Juan"
 
@@ -18,7 +20,8 @@
 // console.log(producto)
 // console.log(typeof producto)
 
-// Numbers
+
+/* Numbers */
 
 // const numero = 20.20
 // const numero2 = 30
@@ -31,8 +34,14 @@
 // console.log(typeof numero4) // Resultado: Un string, por que lleva comillas.
 // console.log(numero4 + numero2) // Intentara sumar un string con un number. Resultado: 2030 
 
-//BigInt
 
-const numeroGrande = BigInt(12312415443534512413626787907879679)
+/* BigInt */
 
-console.log(typeof numeroGrande)
+// const numeroGrande = BigInt(12312415443534512413626787907879679)
+// console.log(typeof numeroGrande)
+
+
+/* Boolean */
+
+const descuento = false
+console.log(typeof descuento)
