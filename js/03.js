@@ -49,8 +49,18 @@
 
 /* Null */
 
-const descuento = null
-console.log(descuento)
+// const descuento = null
+// console.log(descuento)
 
-let precio = undefined
-console.log(precio)
+// let precio = undefined
+// console.log(precio)
+
+
+/* Symbol */
+
+const primerSymbol = Symbol(30)
+const segundoSymbol = Symbol(30)
+
+console.log(primerSymbol === segundoSymbol)
+
+// Los symbols todos son unicos, nunca se repite uno. Ni aunque se comparen y tengan el mismo valor, siempre son diferentes.
