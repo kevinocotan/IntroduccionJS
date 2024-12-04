@@ -43,5 +43,14 @@
 
 /* Boolean */
 
-const descuento = false
-console.log(typeof descuento)
+// const descuento = false
+// console.log(typeof descuento)
+
+
+/* Null */
+
+const descuento = null
+console.log(descuento)
+
+let precio = undefined
+console.log(precio)
