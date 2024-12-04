@@ -16,12 +16,15 @@ const producto = {
 
 /* Destructuring */
 
-const { nombre } = producto // Ambos bloques de codigo hacen lo mismo.
-console.log(nombre)
+// const nombre = producto.nombre
+// const precio = producto.precio
+// const disponible = producto.disponible
+// console.log(nombre)
+// console.log(precio)
+// console.log(disponible)
 
-const nombre = producto.nombre // Ambos bloques de codigo hacen lo mismo.
-const precio = producto.precio
-const disponible = producto.disponible
+const {nombre, precio, disponible} = producto
+
 console.log(nombre)
 console.log(precio)
-console.log(disponible)
+console.log(disponible) // Lo mismo pero resumido
