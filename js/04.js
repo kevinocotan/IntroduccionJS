@@ -7,7 +7,9 @@ const producto = {
     disponible : false
 }
 
-console.log(producto)
-console.table(producto)
-console.log(typeof producto)
+// console.log(producto)
+// console.table(producto)
+// console.log(typeof producto)
+
+console.log(producto.nombre) // Sintaxis de punto.
 
