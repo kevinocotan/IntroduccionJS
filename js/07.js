@@ -11,9 +11,17 @@ const cliente = {
     premium: true
 }
 
-const carrito ={
-    cantidad : 1,
-    ...producto //spread operator
+// const carrito ={
+//     cantidad : 1,
+//     ...producto //spread operator
+// }
+
+const nuevoObjeto = {
+    ...producto,
+    ...cliente
 }
 
-console.log(carrito)
+console.log(nuevoObjeto)
+
+const nuevoObjeto2 = Object.assign(producto,cliente)
+console.log(nuevoObjeto2)
