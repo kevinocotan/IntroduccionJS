@@ -1,9 +1,11 @@
-const tecnologias = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js']
+const tecnologias = ["HTML", "CSS", "JavaScript", "React.js", "Node.js"];
 
-tecnologias.push('Next.js')
+// const tecnologias2 = tecnologias.filter(function(tech) {
+//     if(tech !== 'HTML') {
+//         return tech
+//     }
+//  })
 
-const nuevoArreglo = [...tecnologias, 'Next.js']
-
-console.table(tecnologias)
-
-console.log(nuevoArreglo)
+const tecnologias2 = tecnologias.map(function (tech) {
+  console.log(tech);
+});
