@@ -6,3 +6,9 @@ const numeros = [10, 20, 30]
 const nuevoArray = tecnologias.filter((tech) => tech !== 'HTML')
 
 console.log(nuevoArray)
+
+// Includes 
+
+const resultado = tecnologias.includes('CSS')
+
+console.log(resultado)
