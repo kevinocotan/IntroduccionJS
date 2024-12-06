@@ -26,6 +26,15 @@ const numeros = [10, 20, 30];
 
 //Every - Retorna true o false si todos cumplen la condicion
 
-const resultado = numeros.every (numero => numero > 15) // Arroja false por que no todaos son mayor a 15.
+// const resultado = numeros.every (numero => numero > 15) // Arroja false por que no todaos son mayor a 15.
+
+// Reduce - Retorna un acumulado del total.
+
+const resultado = numeros.reduce ((total, numero) =>{
+    console.log(total)
+    console.log(numero)
+
+    return total + numero
+}, 0)
 
 console.log(resultado);
