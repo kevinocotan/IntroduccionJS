@@ -1,14 +1,21 @@
 const tecnologias = ["HTML", "CSS", "JavaScript", "React.js", "Node.js"];
 const numeros = [10, 20, 30]
 
-//Filter
+// //Filter
 
-const nuevoArray = tecnologias.filter((tech) => tech !== 'HTML')
+// const nuevoArray = tecnologias.filter((tech) => tech !== 'HTML')
 
-console.log(nuevoArray)
+// console.log(nuevoArray)
 
-// Includes 
+// // Includes 
 
-const resultado = tecnologias.includes('CSS')
+// const resultado = tecnologias.includes('CSS')
 
-console.log(resultado)
+// Some  - Devuelve si al menos uno cumple la condición
+
+const resultado = numeros.some (numero => numero > 15)
+if (resultado){
+    console.log('Si hay elementos')
+} else {
+    console.log('No hay elementos')
+}
