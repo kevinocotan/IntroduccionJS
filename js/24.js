@@ -1,5 +1,5 @@
-import { sumar } from './funciones.js'
+import { sumar as funcionSumar} from './funciones.js'
 
-const resultado = sumar (20, 10)
+const resultado = funcionSumar (20, 10)
 
 console.log(resultado)
